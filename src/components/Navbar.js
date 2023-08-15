@@ -11,7 +11,7 @@ import {
     ListItemIcon, 
     ListItemText, 
 } from "@mui/material";
-import HomeIcon from "@mui/icons-material/Home";
+import { AiOutlineHome } from "react-icons/ai";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
@@ -23,7 +23,7 @@ const Navbar = () => {
     const menuOptions = [
         {
             text: "Home",
-            icon:<HomeIcon/>
+            icon:<AiOutlineHome className="home-icon"/>
         },
         {
             text: "Sobre",
@@ -34,11 +34,11 @@ const Navbar = () => {
             icon:<CommentRoundedIcon/>
         },
         {
-            text: "Contact",
+            text: "Contato",
             icon:<PhoneRoundedIcon/>
         },
         {
-            text: "Cart",
+            text: "Inscreva-se",
             icon:<ShoppingCartRoutedIcon/>
         },
     ]
@@ -54,7 +54,7 @@ const Navbar = () => {
             <a href="">Comentários</a>
             <a href="">Contato</a>
             <a href=""><BsCart2 className="navbar-cart-icon" /></a>
-            <button className="primary-button">Bookings Now</button>
+            <button className="primary-button">Inscreva-se</button>
         </div>
         <div className="navbar-menu-container">
             <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
