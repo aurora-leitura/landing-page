@@ -1,6 +1,5 @@
 import {React, useState} from "react"
 import Logo from "../Assets/Logo.svg"
-import {BsCart2} from "react-icons/bs"
 import {HiOutlineBars3} from "react-icons/hi2"
 import { 
     Box, 
@@ -15,7 +14,6 @@ import { AiOutlineHome } from "react-icons/ai";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoutedIcon from "@mui/icons-material/ShoppingCartRounded";
 
 const Navbar = () => {
 
@@ -37,10 +35,6 @@ const Navbar = () => {
             text: "Contato",
             icon:<PhoneRoundedIcon/>
         },
-        {
-            text: "Inscreva-se",
-            icon:<ShoppingCartRoutedIcon/>
-        },
     ]
 
     return(
@@ -53,7 +47,6 @@ const Navbar = () => {
             <a href="">Sobre</a>
             <a href="">Comentários</a>
             <a href="">Contato</a>
-            <a href=""><BsCart2 className="navbar-cart-icon" /></a>
             <button className="primary-button">Inscreva-se</button>
         </div>
         <div className="navbar-menu-container">

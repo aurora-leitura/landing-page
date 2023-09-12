@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../Assets/john-doe-image.png"
+import ProfilePic from "../Assets/amanda-image.png"
 import { AiFillStar } from "react-icons/ai";
 
 
@@ -7,17 +7,16 @@ const Comentarios = () =>{
     return (
         <div className="work-section-wrapper">
             <div className="work-section-top">
-                <p className="primary-subheading">Comentários</p>
                 <h1 className="primary-heading">
-                    What They Are Saying
+                    Comentários
                 </h1>
                 <p className="primary-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eu leo pellentesque mollis at non orci.
+                    Veja o que as pessoas que usam nossa plataforma estão achando da experiência!
                 </p>
             </div>
             <div className="testimonial-section-bottom" >
-                <img src={ProfilePic} />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eu leo pellentesque mollis at non orci.</p>
+                <img src={ProfilePic} alt="imagem-de-perfil" />
+                <p>Adorei a ideia do projeto e fiquei muito animada em poder ler várias histórias com o meu filho de maneira gratuita e fácil. Obrigada, Equipe Aurora!</p>
                 <div className="testimonials-stars-container">
                     <AiFillStar />
                     <AiFillStar />
