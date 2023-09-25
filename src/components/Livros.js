@@ -37,7 +37,7 @@ const Livros = () => {
         {
             image:Capa6,
             title:"Peter Pan & Wendy",
-            text:"Transformamos a leitura em uma paixão, incentivando as crianças a explorar mundos infinitos por meio das palavras.",
+            text:"de J.M. Barrie",
         },
     ];
     return(
@@ -55,6 +55,7 @@ const Livros = () => {
                         <div className="work-section-info-livros">
                             <h2>{data.title}</h2>
                             <p>{data.text}</p>
+                            <br></br>
                             <div className="info-boxes-img-container">
                                 <img src={data.image} alt="" />
                             </div>
