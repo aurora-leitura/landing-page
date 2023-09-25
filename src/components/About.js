@@ -1,6 +1,6 @@
 import React from "react";
 import AboutBackground from "../Assets/about-background.png";
-import AboutBackgroundImage from "../Assets/about-background-image.png";
+import AboutBackgroundImage from "../Assets/about-background-image-criancas.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
 
 const About = () => {
@@ -13,20 +13,20 @@ const About = () => {
                 <img src={AboutBackgroundImage} alt="" />
             </div>
             <div className="about-section-text-container">
-                <p className="primary-subheading">Sobre</p>
+                {/* <p className="primary-subheading">Sobre</p> */}
                 <h1 className="primary-heading">
-                    Saiba mais sobre este projeto incrível!
+                    A Jornada de Alfabetização Pós-Pandemia
                 </h1>
                 <p className="primary-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eu leo pellentesque mollis at non orci. Vestibulum mattis mi at felis congue ullamcorper a nec urna. Donec bibendum sodales laoreet.
+                    Sabemos que o período pandêmico da COVID-19 foi um período difícil para todos, especialmente para nossas crianças e pré-adolescentes, que enfrentaram interrupções significativas em sua educação. Sabendo disso, o Aurora vem para suprir essa necessidade enfrentada.
                 </p>
                 <p className="primary-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis lorem eu leo pellentesque mollis at non orci. Vestibulum mattis mi at felis congue ullamcorper a nec urna. Donec bibendum sodales laoreet.
+                    A pandemia trouxe consigo um cenário desafiador para o aprendizado das crianças: ulas remotas, falta de interação social e a pressão de recuperar o tempo perdido são apenas alguns dos obstáculos que enfrentamos. Mas acreditamos que a leitura pode ser a chave para superar essas adversidades.
                 </p>
-                <div className="about-buttons-container">
+                {/* <div className="about-buttons-container">
                     <button className="secondary-button">Saiba Mais</button>
                     <button className="watch-video-button"><BsFillPlayCircleFill /> Assista ao Vídeo </button>
-                </div>
+                </div> */}
             </div>
         </div>
     )
