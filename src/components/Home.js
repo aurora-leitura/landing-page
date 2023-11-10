@@ -1,16 +1,17 @@
 import React from "react"
 // import Navbar from "./Navbar";
 import BannerBackground from "../Assets/home-banner-background.png";
+import Cenario from "../Assets/Cenário.png";
 import { FiArrowRight } from "react-icons/fi";
 
 const Home = () => {
     return (
     <div className="home-container">
         {/* <Navbar /> */}
-        <div className="home-banner-container">
-            <div className="home-bannerImage-container">
+        <div className="home-bannerImage-container">
                 <img src={BannerBackground} alt="" />
-            </div>
+        </div>
+        <div className="home-banner-container">
             <div className="home-text-section" >
                 <br></br>
                 <br></br>
@@ -23,6 +24,17 @@ const Home = () => {
                 <h1 className="primary-heading" >Aurora, a plataforma infantil favorita para leitura.</h1>
                 <p className="primary-text">Comece estimular a leitura com seu filho, de maneira divertida e inteligente.</p>
                 <button className="secondary-button">Vamos lá?</button>
+            </div>
+            <div className="home-image-section">
+                   <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <img src={Cenario} alt="" />
             </div>
         </div>
     </div>

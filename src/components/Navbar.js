@@ -1,6 +1,8 @@
 import {React, useState} from "react"
+import Chico from "../Assets/chico.png";
 import Logo from "../Assets/Logo.svg"
 import {HiOutlineBars3} from "react-icons/hi2"
+import HomeIcon from "@mui/icons-material/Home"
 import { 
     Box, 
     Drawer, 
@@ -21,7 +23,7 @@ const Navbar = () => {
     const menuOptions = [
         {
             text: "Home",
-            icon:<AiOutlineHome className="home-icon"/>
+            icon:<HomeIcon/>
         },
         {
             text: "Sobre",
@@ -70,6 +72,9 @@ const Navbar = () => {
             )
             )}
            </List>
+           <div className="imagem-menu"></div>
+                <img src={Chico} alt="chico" />
+            <div/>
         </Drawer>
         
     </nav>
